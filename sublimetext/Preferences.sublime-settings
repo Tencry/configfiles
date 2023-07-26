@@ -1,0 +1,16 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	// The Monokai color scheme
+	"color_scheme": "Monokai.sublime-color-scheme",
+
+
+	// Use the power of Vi/Vim in Sublime Text.
+	// To repeat a key hold, run the following in Terminal.app 
+	// $ defaults write com.sublimetext.4 ApplePressAndHoldEnabled -bool false
+	"vintage_start_in_command_mode": false,
+	"vintage_use_clipboard": true,
+	"vintage_ctrl_keys": false,
+	"relative_line_numbers": true,
+	"ignored_packages": [] // exclude "Vintage" package
+}
