@@ -4,6 +4,8 @@
 	// The Monokai color scheme
 	"color_scheme": "Monokai.sublime-color-scheme",
 
+	"show_encoding": true,
+
 
 	// Use the power of Vi/Vim in Sublime Text.
 	// To repeat a key hold, run the following in Terminal.app 
@@ -12,5 +14,7 @@
 	"vintage_use_clipboard": true,
 	"vintage_ctrl_keys": false,
 	"relative_line_numbers": true,
-	"ignored_packages": [] // exclude "Vintage" package
+
+	// exclude "Vintage" package
+	"ignored_packages": [], 
 }
