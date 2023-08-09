@@ -1,0 +1,6 @@
+syntax on		" enables syntax highlighting
+
+set number		" shows line numbers
+set relativenumber	" shows line numbers relative to the cursor position
+
+set nowrap
