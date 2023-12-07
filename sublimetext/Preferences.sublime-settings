@@ -1,11 +1,23 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-	// The Monokai color scheme
-	"color_scheme": "Monokai.sublime-color-scheme",
+	"color_scheme": "Mariana.sublime-color-scheme",
+
+	"theme": "Default Dark.sublime-theme",
+
+	"font_face": "Menlo",
+	"font_size": 14,
+
+	// highlight a current line and position of caret
+	"highlight_line": true,
+	"caret_style": "phase",
 
 	"show_encoding": true,
+	"show_line_endings": true,
 
+	// Activate background workers
+	"save_on_focus_lost": true,
+	"index_files": true,
 
 	// Use the power of Vi/Vim in Sublime Text.
 	// To repeat a key hold, run the following in Terminal.app 
@@ -14,6 +26,9 @@
 	"vintage_use_clipboard": true,
 	"vintage_ctrl_keys": false,
 	"relative_line_numbers": true,
+
+	// Git
+	"git_diff_target": "head",
 
 	// exclude "Vintage" package
 	"ignored_packages": [], 
